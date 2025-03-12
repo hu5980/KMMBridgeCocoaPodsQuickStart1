@@ -23,7 +23,7 @@ kotlin {
         summary = "KMMBridgeCocoaPodsQuickStart1"
         homepage = "https://github.com/hu5980/KMMBridgeCocoaPodsQuickStart1"
         ios.deploymentTarget = "12"
-        version = "0.0.1"
+        version = "0.0.2"
         extraSpecAttributes["libraries"] = "'c++', 'sqlite3'"
         license = "BSD"
         extraSpecAttributes["swift_version"] = "\"5.0\"" // <- SKIE Needs this!
