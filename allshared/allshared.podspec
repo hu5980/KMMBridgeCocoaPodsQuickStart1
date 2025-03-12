@@ -1,14 +1,14 @@
 Pod::Spec.new do |spec|
     spec.name                     = 'allshared'
-    spec.version                  = '0.1.0'
-    spec.homepage                 = 'https://www.touchlab.co'
+    spec.version                  = '0.0.1'
+    spec.homepage                 = 'https://github.com/hu5980/KMMBridgeCocoaPodsQuickStart1'
     spec.source                   = { :http=> ''}
     spec.authors                  = ''
     spec.license                  = 'BSD'
-    spec.summary                  = 'KMMBridgeCocoaPodsQuickStart'
+    spec.summary                  = 'KMMBridgeCocoaPodsQuickStart1'
     spec.vendored_frameworks      = 'build/cocoapods/framework/allshared.framework'
                 
-    spec.ios.deployment_target    = '13.5'
+    spec.ios.deployment_target    = '12'
                 
                 
     if !Dir.exist?('build/cocoapods/framework/allshared.framework') || Dir.empty?('build/cocoapods/framework/allshared.framework')

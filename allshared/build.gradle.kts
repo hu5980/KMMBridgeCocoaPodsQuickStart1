@@ -20,9 +20,10 @@ kotlin {
     }
 
     cocoapods {
-        summary = "KMMBridgeCocoaPodsQuickStart"
-        homepage = "https://www.touchlab.co"
-        ios.deploymentTarget = "13.5"
+        summary = "KMMBridgeCocoaPodsQuickStart1"
+        homepage = "https://github.com/hu5980/KMMBridgeCocoaPodsQuickStart1"
+        ios.deploymentTarget = "12"
+        version = "0.0.1"
         extraSpecAttributes["libraries"] = "'c++', 'sqlite3'"
         license = "BSD"
         extraSpecAttributes["swift_version"] = "\"5.0\"" // <- SKIE Needs this!
@@ -38,5 +39,6 @@ addGithubPackagesRepository()
 kmmbridge {
     mavenPublishArtifacts()
     // Must be the SSH url
-    cocoapods("git@github.com:touchlab/kmmbridgecocoapodsquickstart-podspecs.git")
+    cocoapods("git@github.com:hu5980/HYSpec.git")
+
 }
